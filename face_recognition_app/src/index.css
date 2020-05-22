@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Jaldi', 'courier', sans-serif, 'monospace';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(35, 255, 236), rgb(70, 178, 221));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
