@@ -22,7 +22,7 @@ class Register extends React.Component {
     }
 
     onSubmitSignIn = () => {
-        fetch('http://localhost:3000/register', {
+        fetch('https://aqueous-thicket-26773.herokuapp.com/register', {
             method: 'post',
             headers: {
                 'Content-Type': 'application/json'
@@ -40,7 +40,6 @@ class Register extends React.Component {
                 this.props.onRouteChange('home')
             }
         })
-        .catch(err => console.log(err))
     }
     render() {
         return (

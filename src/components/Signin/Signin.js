@@ -20,7 +20,7 @@ class Signin extends React.Component {
     }
 
     onSubmitSignIn = () => {
-        fetch('http://localhost:3000/signin', {
+        fetch('https://aqueous-thicket-26773.herokuapp.com/signin', {
             method: 'post',
             headers: {
                 'Content-Type': 'application/json'
@@ -37,6 +37,7 @@ class Signin extends React.Component {
                 this.props.onRouteChange('home')
             }
         })
+        // .catch(err => console.log(err))
     }
     render() {
         const { onRouteChange } = this.props;
