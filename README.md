@@ -1,4 +1,4 @@
-###Face Recognition App
+# Face Recognition App
 
 This app uses Face Recognition API to detect faces from the given photos.
 
